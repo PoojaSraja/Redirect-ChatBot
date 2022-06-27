@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+}
+.top-container{
+	background: #FFFFDE;
+	margin-bottom: 5px;
+	height: 110px;
+}
+.top-container img{
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+.top-container span{
+	float: right;
+	position: relative;
+	top: 20px;
+	right: 30px;
+	font-size: 2.2em;
+	font-family: 'Lora', serif;
+}
+
+.middle{
+	background-color: #F2A07B;
+	height: 50px;
+    margin-bottom: 2px;
+}
+.bottom{
+	background-color: #7D0633;
+	height: 50px;
+	margin-bottom: 2px;
+}
+
+#main-content{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.link{
+	font-size: 30px;
+	margin-left: 20px;
+}
+#chatbot{
+	margin-left:auto;
+	margin-right: auto;
+	width: 30%;
+
+}
+#UserInput{
+	margin-left:auto ;
+	margin-right: auto;
+	width: 30%;
+}
+.navbar-inverse{  	            /*middle styles*/				
+	background-color: #F2A07B;
+	border-color: #F2A07B;
+} 
+
+a.navbar-brand{
+	font-size: 40px;
+}
+
+#myNavbar {			     /*navbar for hovering and hovering colours*/	
+	margin-top: 10;
+}
+#myNavbar a {
+	color: white ;
+	text-align: center;
+	font-size: 1.8em;
+	margin-bottom: 2px;
+}
+#myNavbar a:hover {
+	background: 	#44000D;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {   /*selection styles (mobile size)*/
+	border: 1px solid #4A47A3;
+}
+
+
+#bottomNavbar {
+	margin-top: 10;
+	position: relative;
+	bottom: 5px;
+}
+#bottomNavbar a {
+	color: #E5E4E2;
+	text-align: left;
+	font-size: 1.5em;
+
+}
+#bottomNavbar a:hover {
+	background: 	#44000D;
+}
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+.container{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+p{
+	font-size: 1.5rem;
+	margin-bottom: 2rem ;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  /* End Header */
+   #accredited img{
+	width: 	100%;
+
+}
+.container{
+	width: 100%;
+}
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#accredited img{
+	margin-left: 0px;
+	width: 100%;
+}
+.container{
+	width: 100%;
+}
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+}
+  
+  /* End Header */
+  #accredited img{
+	width: 100%;
+	}
+	.container{
+	width: 100%;
+}
+}
